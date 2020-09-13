@@ -1,8 +1,9 @@
 {
     "name": "SamerionRetro",
     "description": "A simple resource pack for Samerion, used for Samerion development, under CC BY-NC 3.0.",
+    "packVersion": "0.1.0",
     "license": "CC BY-NC 3.0",
     "options": {
-        "filter": true
+        "filter": false
     }
 }
