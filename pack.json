@@ -4,18 +4,16 @@
     "packVersion": "0.1.0",
     "license": "CC BY-NC 3.0",
     "options": {
-        "filter": false
-    },
-    "metadata": {
+        "filter": false,
         "tileSize": 128,
-        "angles": 4
+        "angles": 8
     },
-    "specific-metadata": {
-        "cell/grass/decoration/1.png": {
-                "anchor": [1, 2]
+    "fileOptions": {
+        "cells/grass": {
+            "decorationWeight": 20
         },
-        "cell/grass/decoration/2.png": {
-                "anchor": [1, 4]
+        "cells/wood": {
+            "decorationSpace": 0
         }
     }
 }
