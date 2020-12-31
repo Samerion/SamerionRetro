@@ -4,16 +4,17 @@
     "packVersion": "0.1.0",
     "license": "CC BY-NC 3.0",
     "options": {
-        "filter": false,
-        "tileSize": 128,
-        "angles": 8
+        "interpolate": false,
+        "tileSize": 32,
+        "angles": 4
     },
     "fileOptions": {
         "cells/grass": {
-            "decorationWeight": 20
+            "decorationWeight": 20,
+            "hardArea": [1, 2, 1, 1]
         },
         "cells/wood": {
-            "decorationSpace": 0
+            "decorationSpace": [0, 0]
         }
     }
 }
