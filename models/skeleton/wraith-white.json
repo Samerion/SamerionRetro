@@ -1,0 +1,15 @@
+{
+    "name": "hips",
+    "display": false,
+    "nodes": [
+        {
+            "name": "abdomen",
+            "variants": ["wraith-white"],
+            "nodes": {
+                "name": "torso",
+                "variants": ["wraith-white"],
+                "position": [0, 10, 1]
+            }
+        }
+    ]
+}
