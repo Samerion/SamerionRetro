@@ -1,48 +1,48 @@
 {
     "name": "hips",
     "variants": ["wraith-white"],
-    "boneStart": [0, -22, 0],
-    "texturePosition": [-5, -4, 0],
+    "boneStart": [0, 22, 0],
+    "texturePosition": [-5, 4, 0],
     "nodes": [
         {
             "name": "abdomen",
             "variants": ["wraith-white"],
-            "boneStart": [0, -2, 0],
-            "boneEnd": [0, -8, 0],
-            "texturePosition": [-4, -8, 0],
+            "boneStart": [0, 2, 0],
+            "boneEnd": [0, 8, 0],
+            "texturePosition": [-4, 8, 0],
             "nodes": [
                 {
                     "name": "torso",
                     "variants": ["wraith-white"],
-                    "boneEnd": [0, -13, 0],
-                    "texturePosition": [-7, -13, 0],
+                    "boneEnd": [0, 13, 0],
+                    "texturePosition": [-7, 13, 0],
                     "nodes": [
                         {
                             "name": "head",
                             "variants": ["wraith-white"],
-                            "boneEnd": [0, -13, 0],
-                            "texturePosition": [-5, -13, 0]
+                            "boneEnd": [0, 13, 0],
+                            "texturePosition": [-5, 13, 0]
                         },
                         {
                             "name": "upper-arm",
                             "id": "upper-arm-right",
                             "variants": ["wraith-white"],
-                            "boneStart": [-7.5, 1, 0],
-                            "boneEnd": [0, 11, 0],
-                            "texturePosition": [-2.5, -1, 0],
+                            "boneStart": [-7.5, -1, 0],
+                            "boneEnd": [0, -11, 0],
+                            "texturePosition": [-2.5, 1, 0],
                             "nodes": [
                                 {
                                     "name": "forearm",
                                     "id": "forearm-right",
                                     "variants": ["wraith-white"],
-                                    "boneEnd": [0, 8, 0],
+                                    "boneEnd": [0, -8, 0],
                                     "texturePosition": [-1.5, 0, 0],
                                     "nodes": [
                                         {
                                             "name": "hand",
                                             "id": "hand-right",
                                             "variants": ["wraith-white"],
-                                            "texturePosition": [-2.5, -1, 0]
+                                            "texturePosition": [-2.5, 1, 0]
                                         }
                                     ]
                                 }
@@ -52,16 +52,16 @@
                             "name": "upper-arm",
                             "id": "upper-arm-left",
                             "variants": ["wraith-white"],
-                            "boneStart": [7.5, 1, 0],
-                            "boneEnd": [0, 11, 0],
-                            "texturePosition": [-2.5, -1, 0],
+                            "boneStart": [7.5, -1, 0],
+                            "boneEnd": [0, -11, 0],
+                            "texturePosition": [-2.5, 1, 0],
                             "mirror": true,
                             "nodes": [
                                 {
                                     "name": "forearm",
                                     "id": "forearm-left",
                                     "variants": ["wraith-white"],
-                                    "boneEnd": [0, 8, 0],
+                                    "boneEnd": [0, -8, 0],
                                     "texturePosition": [-1.5, 0, 0],
                                     "mirror": true,
                                     "nodes": [
@@ -69,7 +69,7 @@
                                             "name": "hand",
                                             "id": "hand-left",
                                             "variants": ["wraith-white"],
-                                            "texturePosition": [-2.5, -1, 0],
+                                            "texturePosition": [-2.5, 1, 0],
                                             "mirror": true
                                         }
                                     ]
@@ -84,22 +84,22 @@
             "name": "thigh",
             "id": "thigh-right",
             "variants": ["wraith-white"],
-            "boneStart": [-2.5, -1, 0],
-            "boneEnd": [0, 11, 0],
+            "boneStart": [-2.5, 1, 0],
+            "boneEnd": [0, -11, 0],
             "texturePosition": [-2.5, 0, 0],
             "nodes": [
                 {
                     "name": "lower-leg",
                     "id": "lower-leg-right",
                     "variants": ["wraith-white"],
-                    "boneEnd": [0, 9, 0],
+                    "boneEnd": [0, -9, 0],
                     "texturePosition": [-1.5, 0, 0],
                     "nodes": [
                         {
                             "name": "foot",
                             "id": "foot-right",
                             "variants": ["wraith-white"],
-                            "boneEnd": [0, 3, 0],
+                            "boneEnd": [0, -3, 0],
                             "texturePosition": [-6.5, 0, 0]
                         }
                     ]
@@ -110,8 +110,8 @@
             "name": "thigh",
             "id": "thigh-left",
             "variants": ["wraith-white"],
-            "boneStart": [2.5, -1, 0],
-            "boneEnd": [0, 11, 0],
+            "boneStart": [2.5, 1, 0],
+            "boneEnd": [0, -11, 0],
             "texturePosition": [-2.5, 0, 0],
             "mirror": true,
             "nodes": [
@@ -119,7 +119,7 @@
                     "name": "lower-leg",
                     "id": "lower-leg-left",
                     "variants": ["wraith-white"],
-                    "boneEnd": [0, 9, 0],
+                    "boneEnd": [0, -9, 0],
                     "texturePosition": [-1.5, 0, 0],
                     "mirror": true,
                     "nodes": [
@@ -127,7 +127,7 @@
                             "name": "foot",
                             "id": "foot-left",
                             "variants": ["wraith-white"],
-                            "boneEnd": [0, 3, 0],
+                            "boneEnd": [0, -3, 0],
                             "texturePosition": [-6.5, 0, 0],
                             "mirror": true
                         }

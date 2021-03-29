@@ -1,16 +1,16 @@
 [
     {
         "upper-arm-right": {
-            "rotate": [8, 130, -30, 0]
-        },
-        "forearm-right": {
-            "rotate": [6, 45, 0, 60]
-        },
-        "upper-arm-left": {
             "rotate": [8, 130, 30, 0]
         },
-        "forearm-left": {
+        "forearm-right": {
             "rotate": [6, 45, 0, -60]
+        },
+        "upper-arm-left": {
+            "rotate": [8, 130, -30, 0]
+        },
+        "forearm-left": {
+            "rotate": [6, 45, 0, 60]
         }
     }
 ]
